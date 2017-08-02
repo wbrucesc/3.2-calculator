@@ -1,0 +1,71 @@
+/* Bootstrap Variables */
+$icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+
+/* Import Bootstrap */
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #FDF5C9;
+  height: 100%;
+  background-size: cover;
+}
+
+.container-fluid{
+  margin-bottom: 12px;
+  padding: 0;
+}
+.col-sm-3, .col-sm-6{
+  padding: 0;
+}
+
+.calculator {
+  width: 300px;
+  margin: 150px auto;
+  height: 425px;
+  background-color: #D6D6D6;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+
+#display{
+  padding: 0;
+}
+
+.screen{
+  height: 50px;
+  background-color: #4C4C4C;
+  width: 100%;
+  text-align: right;
+  padding-right: 50px;
+  color: #fff;
+  margin: 15px 0px 5px 0px;
+  line-height: 5vw;
+  font-size: 3vw;
+}
+
+// .row{
+//   margin: 0 auto;
+//   width: 95%;
+// }
+
+.top_row span, .row_2 span, .row_3 span, .row_4 span, .row_5 span{
+  border: 2px solid #989898;
+  border-radius: 5px;
+  padding: 8px 24px;
+  font-size: 16px;
+  line-height: 5vw;
+  box-shadow: 0px 10px 6px -6px #333;
+}
+
+.operator, #equal{
+  background-color: orange;
+}
+#zero{
+  padding-right: 92px;
+}
+span{
+  cursor: pointer;
+}
